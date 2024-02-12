@@ -5,6 +5,19 @@ body, html {
     height: 100%;
 }
 
+.modal:hover {
+    display: block;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}
+
+button:focus + div {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
 .modal {
     background-color: rgba(0,0,0, 0.5);
     height: 0px;
@@ -14,20 +27,10 @@ body, html {
     top: 0px;
     display: none;
     opacity: 0;
-    transition: opacity 2s linear;
+    transition: opacity .4s linear;
 }
 
-button {
-    font-size: 24px;
-}
 
-button:focus + div {
-    opacity: 1;
-    display: block;
-    height: 100%;
-    width: 100%;
-    transition: opacity 2s linear;
-}
 
 .modal-body {
     height: 400px;
@@ -35,14 +38,6 @@ button:focus + div {
     background-color: white;
     font-size: 24px;
     text-align: center;
-
     margin: 15% auto;
-}
-
-section {
-    height: 100%;
-    text-align: center;
-    color: white;
-    background-color: rgb(111, 176, 79);
-    font-size: 24px;
+    position: relative;
 }
