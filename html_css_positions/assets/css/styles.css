@@ -43,23 +43,28 @@ button:focus + div {
 }
 
 ul {
+    width: 60%;
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-
 }
 
 nav {
-    top: -10px;
-    left: 0px;
-    position: relative;
-    width: 100%;
-    background-color: beige;
+    width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div {
+    width: 20%;
 }
 
 main {
     height: 100%;
+    width: 1024px;
+    margin: 0px auto;
 }
 section:first-child{
     height: 100%;
