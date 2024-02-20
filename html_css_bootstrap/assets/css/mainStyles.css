@@ -1,9 +1,8 @@
-
-.btn-primary {
-    background-color: #092a5b;
+nav {
+    background-color: aqua;
 }
 
-.btn-primary:hover {
-    background-color: #FFFFFF;
-    color: #000000;
+ul {
+    display: flex;
+    list-style: none;
 }
