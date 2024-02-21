@@ -1,0 +1,31 @@
+$color-indigo: indigo;
+$color-yellow: yellow;
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+
+    background-color: $color-yellow !important;
+}
+
+.row {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+
+    div {
+        width: 100px;
+        text-align: center;
+        background-color: red;
+
+        &:hover {
+            background-color: blue;
+            cursor: pointer;
+            color: #FFFFFF;
+        }
+    }
+
+    p {
+        color: #FFFFFF;
+    }
+}

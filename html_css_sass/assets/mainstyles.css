@@ -1,0 +1,26 @@
+body, html {
+  padding: 0px;
+  margin: 0px;
+  background-color: yellow !important;
+}
+
+.row {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-around;
+}
+.row div {
+  width: 100px;
+  text-align: center;
+  background-color: red;
+}
+.row div:hover {
+  background-color: blue;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+.row p {
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=mainstyles.css.map */

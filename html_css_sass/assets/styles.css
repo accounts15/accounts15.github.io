@@ -1,0 +1,19 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+
+    background-color: aqua;
+}
+
+.row {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.row div {
+    width: 100px;
+    text-align: center;
+    background-color: red;
+}
